@@ -12,10 +12,10 @@ namespace ISuckAtGameDev
             Refresh();
         }
 
-        [MenuItem("ISAGD Tools/Setup/Packages/New Input System")]
-        static void AddNewInputSystem() => Packages.InstallUnityPackage("inputsystem");
-
         [MenuItem("ISAGD Tools/Setup/Packages/Cinemachine")]
         static void AddCinemachine() => Packages.InstallUnityPackage("cinemachine");
+
+        [MenuItem("ISAGD Tools/Setup/Packages/New Input System")]
+        static void AddNewInputSystem() => Packages.InstallUnityPackage("inputsystem");
     }
 }
